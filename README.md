@@ -30,7 +30,7 @@ class Post extends Resource
         return [
             // ...
 
-            MultiColumn::make('data'),
+            MultiColumn::make('attributes'),
 
             // ...
         ];
@@ -48,7 +48,7 @@ namespace App;
 class Post extends Model
 {
     protected $casts = [
-        'data' => 'array'
+        'attributes' => 'array'
     ]
 }
 ```
