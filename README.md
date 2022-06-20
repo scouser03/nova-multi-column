@@ -9,7 +9,7 @@ This package contains a Laravel Nova field that enables the creation of repeatab
 You can install this package in to a Laravel app that uses [Nova](https://nova.laravel.com) via composer:
 
 ```bash
-composer require scouser03/nova-multi-column
+composer require scouser03/multi-column
 ```
 
 ## Usage
@@ -211,8 +211,6 @@ Sets the maximum number of rows as the upper limit. Upon reaching this limit, yo
 MultiColumn::make('attributes')
     ->heading('attributes');
 ```
-
-Sets the heading between each row (eg. Dog #1, Dog #2). Only works when used with "displayStackedForm".
 
 ### Changelog
 
